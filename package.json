@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node dist/app.js",
-    "dev": "cross-env nodemon -r dotenv/config index.ts"
+    "dev": "cross-env nodemon -r dotenv/config ./src/index.ts"
   },
   "author": "",
   "license": "ISC",
