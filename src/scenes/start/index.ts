@@ -1,5 +1,5 @@
 import { Context, Markup, Scenes } from "telegraf";
-import bot from "../..";
+import bot from "../../app";
 import { APP_SCENES } from "../../types";
 
 const start = new Scenes.BaseScene<Scenes.SceneContext>(APP_SCENES.START);
